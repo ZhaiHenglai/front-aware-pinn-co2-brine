@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, cite the associated article and the final Zenodo record."
+title: "Front-aware PINNs for CO2--brine displacement fronts"
+type: software
+version: "1.0.0"
+repository-code: "https://github.com/ZhaiHenglai/front-aware-pinn-co2-brine"
+authors:
+  - family-names: Zhai
+    given-names: Henglai
+    affiliation: University of Aberdeen
+preferred-citation:
+  type: article
+  title: "Front-Aware Physics-Informed Neural Networks with Local Mass-Balance Regularization for Carbon Dioxide-Brine Displacement Fronts"
+  authors:
+    - family-names: Zhai
+      given-names: Henglai
+    - family-names: Lin
+      given-names: Zaibin
+    - family-names: Oliveira
+      given-names: Francisco
+    - family-names: Gomes
+      given-names: Jefferson

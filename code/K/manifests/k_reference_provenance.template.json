@@ -1,0 +1,24 @@
+{
+  "configuration": "K",
+  "reference_dataset": "data/tables_cache_0_775_step1.pt",
+  "reference_dataset_sha256": "2132a9be710e2f257ea397cd080654e689093d9c561be3edb5be1e471283e761",
+  "verified": false,
+  "capillary_pressure_enabled": null,
+  "permeability_field_id": "",
+  "permeability_field_sha256": "",
+  "simulator": "",
+  "source_account": "",
+  "source_case_directory": "",
+  "alignment_with_configuration_h": {
+    "geometry": null,
+    "boundary_conditions": null,
+    "initial_conditions": null,
+    "relative_permeability_model": null,
+    "fluid_properties": null,
+    "time_window_covers_common_analysis": null,
+    "numerical_quality_acceptable": null
+  },
+  "evidence": [],
+  "evidence_instructions": "Each verified evidence entry must be an object with a path relative to this manifests directory, a 64-hex sha256, and a nonempty description. Copy source inputs/logs under manifests/reference_evidence/.",
+  "verification_notes": "Copy this template to k_reference_provenance.json and complete it from original simulator inputs/logs. Do not set verified=true without locally archived, hash-matched evidence."
+}

@@ -1,0 +1,3 @@
+# Release status
+
+This release candidate was assembled from `repository_staging_v7` for <https://github.com/ZhaiHenglai/front-aware-pinn-co2-brine>. The authors have selected MIT for original software and CC BY 4.0 for author-controlled non-software content, subject to the scope in `LICENSE.md`. Plan C, large tensors, checkpoints, processed/figure-source datasets and native IC-FERST outputs are excluded. Their identities remain in `external_assets/` and the Zenodo five-record plan. Public release remains conditional on final manifest, path/privacy, citation-metadata and remote-publication checks.

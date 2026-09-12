@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+__MACOSX/
+.venv/
+venv/
+.env
+*.pt
+*.pth
+*.ckpt
+*.vtu
+*.pvtu
+*.h5
+*.hdf5
+data/processed/
+data/figure_source_data/

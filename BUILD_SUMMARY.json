@@ -1,0 +1,10 @@
+{
+  "status": "LOCAL_CANDIDATE_ONLY",
+  "source_candidate": "repository_staging_v7",
+  "output_candidate": "git_staging_v6",
+  "source_files_copied": 136,
+  "git_initialized": false,
+  "licence_approved_for_author_controlled_content": true,
+  "candidate_manifest_payloads": 149,
+  "candidate_manifest_bytes": 2120821
+}

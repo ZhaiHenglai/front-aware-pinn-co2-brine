@@ -1,0 +1,57 @@
+{
+  "boundary_and_well_treatment": "The regular grid spans [0,5] x [0,5] m. Empty bins, including well-hole or under-sampled bins, use non-periodic four-neighbour dilation without wrap-around.",
+  "configuration": "K",
+  "directional_correlation_lengths_m": null,
+  "directional_correlation_lengths_note": "Not estimated from the derived grid; the original simulator field seed and generation parameters remain a provenance item to recover.",
+  "field_id": "K775_fixed_permgrid128_2132a9be710e",
+  "field_seed": "source_simulator_seed_unrecovered_from_cache",
+  "filled_grid_cells_from_source": 15032,
+  "generation_method": "deterministic exact-coordinate-deduplicated log-K projection of the earliest spatial layer from the frozen adaptive-mesh reference cache",
+  "generation_parameters": {
+    "archived_interpolation_compatibility": "same permgrid128 log-K projection and interpolation contract, with duplicate-coordinate deweighting required for a unique spatial field",
+    "coordinate_deduplication": "exact (x,y) identity; conflicting permeability at a duplicate coordinate fails",
+    "empty_cell_fill": "non-periodic four-neighbour dilation, then source geometric mean",
+    "field_stationarity_basis": "permeability is a time-independent simulator input; the immutable grid is derived only from the earliest adaptive-mesh export layer",
+    "grid_assignment": "nearest regular-grid node using numpy.rint",
+    "grid_size": 128,
+    "source_dataset_basename": "tables_cache_0_775_step1.pt",
+    "source_dataset_sha256": "2132a9be710e2f257ea397cd080654e689093d9c561be3edb5be1e471283e761",
+    "source_duplicate_coordinate_rows_removed": 7525,
+    "source_rows": 33447,
+    "source_time_layer_count_verified": 776,
+    "source_time_s": 0.0,
+    "source_unique_coordinates": 25922,
+    "within_cell_reducer": "arithmetic mean of log(K)"
+  },
+  "interpolation_method": "bilinear interpolation of log(K)",
+  "npz_sha256": "fd7c4ef13b7d0cd3d30d32b3f24fe6819f91e62d4657fe01769d3830a75f0a47",
+  "shape": [
+    128,
+    128
+  ],
+  "source_dataset_sha256": "2132a9be710e2f257ea397cd080654e689093d9c561be3edb5be1e471283e761",
+  "source_permeability_key": "permeability",
+  "source_slice_statistics": {
+    "geometric_mean_m2": 9.99774701821504e-15,
+    "maximum_m2": 1.3498588097987652e-14,
+    "minimum_m2": 7.408182343938106e-15
+  },
+  "source_time_s": 0.0,
+  "statistics": {
+    "arithmetic_mean_m2": 1.0020714604697763e-14,
+    "geometric_mean_m2": 9.989558344806306e-15,
+    "log_k_variance": 0.0062387873696524284,
+    "maximum_m2": 1.349858460768634e-14,
+    "minimum_m2": 7.408191607492666e-15
+  },
+  "statistics_weighting": "area-weighted trapezoidal quadrature on the unique regular grid",
+  "units": "m^2",
+  "x_range_m": [
+    0.0,
+    5.0
+  ],
+  "y_range_m": [
+    0.0,
+    5.0
+  ]
+}

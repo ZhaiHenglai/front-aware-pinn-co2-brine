@@ -1,0 +1,30 @@
+{
+  "configuration": "K",
+  "reference_dataset": "data/tables_cache_0_775_step1.pt",
+  "reference_dataset_sha256": "2132a9be710e2f257ea397cd080654e689093d9c561be3edb5be1e471283e761",
+  "verified": true,
+  "verification_basis": "project_owner_operator_attestation",
+  "capillary_pressure_enabled": false,
+  "permeability_field_id": "K775_fixed_permgrid128_2132a9be710e",
+  "permeability_field_sha256": "fd7c4ef13b7d0cd3d30d32b3f24fe6819f91e62d4657fe01769d3830a75f0a47",
+  "simulator": "IC-FERST",
+  "source_account": "project-owner-confirmed frozen K775 dataset",
+  "source_case_directory": "frozen PT dataset is authoritative; original simulator directory is not used as the formal evidence basis",
+  "alignment_with_configuration_h": {
+    "geometry": true,
+    "boundary_conditions": true,
+    "initial_conditions": true,
+    "relative_permeability_model": true,
+    "fluid_properties": true,
+    "time_window_covers_common_analysis": true,
+    "numerical_quality_acceptable": true
+  },
+  "evidence": [
+    {
+      "path": "reference_evidence/K775_OPERATOR_ATTESTATION.txt",
+      "sha256": "855352238c90dc359b1d208f83d0eb819ac67adee6e16f9a3a5accc9c280fea1",
+      "description": "Project-owner declaration that the frozen K775 reference dataset is the authoritative no-capillary-pressure Configuration K dataset."
+    }
+  ],
+  "verification_notes": "Formal execution is authorized from the project owner's explicit declaration that the SHA-pinned K775 dataset is correct and no-Pc. The unrelated RP_1e4_0.1_fix_copy MPML is excluded from this provenance record."
+}
