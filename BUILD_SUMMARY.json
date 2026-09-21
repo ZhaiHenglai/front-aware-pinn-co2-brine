@@ -1,10 +1,12 @@
 {
-  "status": "LOCAL_CANDIDATE_ONLY",
+  "status": "PUBLIC_RELEASE",
   "source_candidate": "repository_staging_v7",
   "output_candidate": "git_staging_v6",
   "source_files_copied": 136,
-  "git_initialized": false,
+  "git_initialized": true,
   "licence_approved_for_author_controlled_content": true,
-  "candidate_manifest_payloads": 149,
-  "candidate_manifest_bytes": 2120821
+  "candidate_manifest_payloads": 150,
+  "candidate_manifest_bytes": 2122451,
+  "release_version": "1.0.1",
+  "release_scope": "Documentation and persistent-record link maintenance; scientific code and configurations unchanged from 1.0.0."
 }

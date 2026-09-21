@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this software, cite the associated article and the final Zenodo record."
+message: "If you use this software, cite the associated article and the linked Zenodo research objects."
 title: "Front-aware PINNs for CO2--brine displacement fronts"
 type: software
-version: "1.0.0"
+version: "1.0.1"
+date-released: 2026-09-22
 repository-code: "https://github.com/ZhaiHenglai/front-aware-pinn-co2-brine"
 authors:
   - family-names: Zhai
